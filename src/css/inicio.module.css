@@ -53,7 +53,7 @@ flex-wrap: wrap;
 
 .blocoPedidos:hover {
     transform: scale(1.07);
-    transition: .3.s;
+    transition: .3s;
 }
 
 .blocoPedidos figure {
