@@ -1,0 +1,74 @@
+
+body {
+    background-color: #252b30;
+}
+
+h1 {
+    color: #fff;
+}
+
+main {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url('../assets/f78dd3125381523.6117f5123b338.png');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.mainTexto {
+    padding-left: 3rem;
+    width: 50%;
+    font-size: 25px;
+    color: #fff;
+    transition: .3s;
+}
+
+.mainTexto:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.secaoPedidos {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.blocoPedidos {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 60vh;
+    margin: 1rem;
+    border: 1px solid;
+    background-color: #DC3131;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.blocoPedidos:hover {
+    transform: scale(1.07);
+    transition: .3.s;
+}
+
+.blocoPedidos figure {
+margin: 0 auto;
+}
+
+.blocoPedidos img {
+    border-radius:20px 20px 0 0;
+    width: 29.5vw;
+    height: 30vh;
+    filter: brightness(9    0%)
+}
+
+.blocoPedidos p {
+    text-align: center;
+    padding: .75rem;
+    color: #fff;
+}

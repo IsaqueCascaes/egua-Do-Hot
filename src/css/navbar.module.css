@@ -1,0 +1,31 @@
+
+
+nav {
+    height: 12vh;
+    background-color: #DC3131;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+nav, .listamenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listamenu li {
+    list-style: none;
+    font-size: 24px;
+    padding-left: 4rem;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.link:hover {
+color: #b6b6b6;
+transition: .3s;
+}
