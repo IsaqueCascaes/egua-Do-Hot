@@ -1,10 +1,10 @@
-
 body {
     background-color: #252b30;
 }
 
 h1 {
     color: #fff;
+    padding: 1rem;
 }
 
 main {
@@ -33,9 +33,9 @@ main {
 }
 
 .secaoPedidos {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
@@ -43,7 +43,7 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     width: 30%;
-    height: 60vh;
+    height: 70vh;
     margin: 1rem;
     border: 1px solid;
     background-color: #DC3131;
@@ -57,18 +57,57 @@ flex-wrap: wrap;
 }
 
 .blocoPedidos figure {
-margin: 0 auto;
+    margin: 0 auto;
 }
 
 .blocoPedidos img {
-    border-radius:20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
     width: 29.5vw;
     height: 30vh;
-    filter: brightness(9    0%)
+    filter: brightness(9 0%)
 }
 
 .blocoPedidos p {
     text-align: center;
     padding: .75rem;
     color: #fff;
+}
+
+.blocoBotao {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.blocoBotao button {
+    width: 5rem;
+    transition: .3s;
+}
+
+.blocoBotao button:hover {
+    background-color: rgb(22, 231, 22);
+    border: none;
+    transition: .3s;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.blocoErro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.textoErro {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
 }

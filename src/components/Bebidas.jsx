@@ -1,15 +1,16 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import textoPedidos from "../textos/TextoPedidos";
+
+import maisBebidas from "../textos/textoBebidas";
 import styles from "../css/inicio.module.css";
 
-export default function MaisPedidos() {
+
+export default function Bebidas() {
   return (
     <>
-      <h1>Mais Pedidos</h1>
+      <h1>Bebidas Especiais</h1>
 
       <section className={styles.secaoPedidos}>
-        {textoPedidos.map((item) => (
+        {maisBebidas.map((item) => (
           <div className={styles.blocoPedidos} key={item.id}>
             <figure>
               <img src={item.imagem} alt={`Imagem ${item.id}`} />
@@ -17,7 +18,7 @@ export default function MaisPedidos() {
             <p>{item.nomeAlimento}</p>
             <p>{item.descricao}</p>
             <div className={styles.blocoBotao}>
-                <button><Link className={styles.link} to={"/cardapio"}>{item.botao}</Link></button>
+                <p>{item.valor}</p>
             </div>
           </div>
         ))}

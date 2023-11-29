@@ -1,0 +1,66 @@
+.blocoCards {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.cards1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 30vw;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bhaz.com.br/wp-content/uploads/2022/09/cachorro-quente.jpg);
+    background-size: cover;
+    transition: .3s;
+}
+
+.cards1:hover {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.cards2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 30vw;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s1.best-wallpaper.net/wallpaper/m/1803/Hamburger-ketchup-french-fries_m.webp);
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+
+.cards2:hover {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.cards3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 30vw;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s2.glbimg.com/GUda5oj9xkd_yQNyn36mDn9XJmo=/620x455/e.glbimg.com/og/ed/f/original/2018/08/17/beber-refrigerante-todos-os-dias-esta-te-matando.jpg);
+    background-size: cover;
+    transition: .3s;
+}
+
+.cards3:hover {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
