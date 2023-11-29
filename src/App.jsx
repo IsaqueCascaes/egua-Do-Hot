@@ -1,15 +1,13 @@
-import Navbar from './components/navbar'
-import GlobalStyle from './styles/EstiloGlobal'
+import Navbar from './components/navbar.jsx';
+import GlobalStyle from './styles/EstiloGlobal';
 
 function App() {
-
-
   return (
     <>
-    <GlobalStyle />
+      <GlobalStyle />
       <Navbar />
     </>
-  )
+  );
 }
 
 export default App;
